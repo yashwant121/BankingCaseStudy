@@ -1,5 +1,5 @@
 # Project Name
-> Outline a brief description of your project.
+Risk Analysis in Consumer Finance
 
 
 ## Table of Contents
@@ -8,45 +8,43 @@
 * [Conclusions](#conclusions)
 * [Acknowledgements](#acknowledgements)
 
-<!-- You can include any other section that is pertinent to your problem -->
+
 
 ## General Information
-- Provide general information about your project here.
-- What is the background of your project?
-- What is the business probem that your project is trying to solve?
-- What is the dataset that is being used?
+- About:
+This project aims to perform exploratory data analysis (EDA) to understand the risk of loan default in a consumer finance company. By analyzing past loan applicant data, we aim to identify patterns that can predict the likelihood of default, helping the company make informed decisions on loan approvals.
+- Background:
+Consumer finance companies face significant risks when lending money, particularly the risk of applicants defaulting on loans. Understanding these risks through data analysis is crucial for minimizing financial losses and optimizing the loan approval process.
+- Business Probem:
+The project seeks to solve the problem of risk assessment in loan approval. By predicting which applicants are likely to default, the company can mitigate risks by adjusting loan terms, denying high-risk loans, or offering higher interest rates to compensate for the risk.
+- Dataset used
+The dataset includes information about past loan applicants, such as demographic details, loan characteristics, and whether the applicants defaulted on their loans. This historical data will be used to identify trends and patterns associated with loan defaults.
 
-<!-- You don't have to answer all the questions - just the ones relevant to your project. -->
+
 
 ## Conclusions
 - Conclusion 1 from the analysis
+Demographic attributes such as age, income level, and employment status significantly influence the likelihood of loan default.
 - Conclusion 2 from the analysis
+Loan characteristics, including loan amount, loan term, and interest rate, are strong indicators of the default risk.
 - Conclusion 3 from the analysis
+Applicants with a history of defaults or high credit utilization are more likely to default on new loans, emphasizing the need for thorough credit history checks.
 - Conclusion 4 from the analysis
+Implementing risk-based pricing and stringent approval criteria based on predictive models can significantly reduce the company's financial losses.
 
-<!-- You don't have to answer all the questions - just the ones relevant to your project. -->
+
 
 
 ## Technologies Used
-- library - version 1.0
-- library - version 2.0
-- library - version 3.0
+- Python - version 3.8
+- Pandas - version 1.2.3
+- NumPy - version 1.19.2
+- Scikit-learn - version 0.24.1
+- Matplotlib - version 3.3.4
+- Seaborn - version 0.11.1
 
-<!-- As the libraries versions keep on changing, it is recommended to mention the version of library used in this project -->
+
 
 ## Acknowledgements
-Give credit here.
-- This project was inspired by...
-- References if any...
-- This project was based on [this tutorial](https://www.example.com).
+This project was inspired by the need to address risk management in consumer finance. Special thanks to Upgrad for providing valuable resources and tutorials.
 
-
-## Contact
-Created by [@githubusername] - feel free to contact me!
-
-
-<!-- Optional -->
-<!-- ## License -->
-<!-- This project is open source and available under the [... License](). -->
-
-<!-- You don't have to include all sections - just the one's relevant to your project -->
